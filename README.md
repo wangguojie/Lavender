@@ -21,3 +21,10 @@ MongoDB/aggregate.py is moudle for MongoDB Aggregation,it change operation easy 
 
 
 2,method aggregate(collection,pipeline,*keys) : excute collection.aggregate(pipeline) and return need lists with keys.
+    Example:
+    
+      result_list = aggregate(collection,pipeline,'users')
+    
+    you will get a list as key = 'users' after  aggregate the pipeline on collection.
+    when you need more than one key's list, you can:
+      result_list = aggregate(collection,pipeline,'users','messages',...)
