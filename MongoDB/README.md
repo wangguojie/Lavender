@@ -1,0 +1,2 @@
+# Lavender
+MongoDB Aggregation Class
