@@ -1,5 +1,5 @@
 # Lavender
-MongoDB Aggregation Class
+MongoDB Aggregation Python Class
 
 MongoDB/aggregate.py is moudle for MongoDB Aggregation,it change operation easy and readable.
 
